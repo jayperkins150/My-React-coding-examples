@@ -1,0 +1,138 @@
+.App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+  padding: 15px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 10pt;
+  border: none;
+  border-radius: 10px;
+}
+
+img {
+  width: 200px;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-size: medium;
+}
+
+.profile-card {
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+
+.profile-card:hover {
+    transform: translateY(-5px); /* Lift the card on hover */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.profile-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #4a90e2;
+    margin-bottom: 20px;
+}
+
+.profile-info {
+    padding: 0 10px;
+}
+
+.name {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.job-title {
+    font-size: 1.1em;
+    color: #4a90e2;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.bio {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px; /* Space between tags */
+    margin-top: 15px;
+}
+
+.skill-tag {
+    background-color: #e6f7ff;
+    color: #4a90e2;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-weight: 500;
+    border: 1px solid #91d5ff;
+}
+
+input {
+  font-size: 16px;
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 80%;
+  transition: border-color 0.2s ease;
+}
+
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: white;
+  width: 80%;
+}
+
+.text-red-500 {
+    --tw-text-opacity: 1;
+    color: rgb(239 68 68 / var(--tw-text-opacity));
+    font-weight: bold;
+}
+
+.text-green-500 {
+    --tw-text-opacity: 1;
+    color: rgb(76 175 80 / var(--tw-text-opacity));
+    font-weight: bold;
+}
+
+.text-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(33 150 243 / var(--tw-text-opacity));
+  font-weight: bold;
+}
