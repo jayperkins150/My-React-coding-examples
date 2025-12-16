@@ -1,0 +1,77 @@
+.form-header {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background: #fafafa;
+}
+
+.bot-input {
+  font-size: 16px;
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 80%;
+  transition: border-color 0.2s ease;
+}
+
+
+.bot-input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+
+.form-details {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.bottom-line {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+
+.tag {
+  padding: 8px 14px;
+  background: #e7f1ff;
+  border: 1px solid #b5d4ff;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease, transform 0.1s ease;
+  font-size: 14px;
+}
+
+.tag:hover {
+  background: #d6e8ff;
+}
+
+.tag:active {
+  transform: scale(0.96);
+}
+
+.job-status {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: white;
+  width: 90%;
+}
+
+.job-category {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: white;
+  width: 90%;
+}
