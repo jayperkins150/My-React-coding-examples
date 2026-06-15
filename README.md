@@ -1,19 +1,59 @@
-# My React coding examples
+# My React Coding Examples
 
-This is a single page app, see the descriptions on the page to understand the functions of each component.
+A collection of React examples and practice exercises created to strengthen my understanding of React fundamentals and modern frontend development concepts.
 
-## React + Vite
+## Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Multiple React examples in one repository
+- Reusable component demonstrations
+- State and props examples
+- Event handling techniques
+- Conditional rendering patterns
+- Practical coding exercises
 
-Currently, two official plugins are available:
+## Technologies Used
 
-@vitejs/plugin-react uses Babel (or oxc when used in rolldown-vite) for Fast Refresh
-@vitejs/plugin-react-swc uses SWC for Fast Refresh
+- React
+- JavaScript
+- CSS
+- Vite
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see this documentation.
+### Clone the repository
 
-Expanding the ESLint configuration
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the TS template for information on how to integrate TypeScript and typescript-eslint in your project.
+```bash
+git clone https://github.com/jayperkins150/My-React-coding-examples.git
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+## What I Learned
+
+- Building reusable React components
+- Managing state and props
+- Organising React applications
+- Applying React best practices
+- Improving debugging and problem-solving skills
+
+## Future Improvements
+
+- Add advanced React patterns
+- Include Context API examples
+- Introduce custom hooks
+- Add testing examples
+- Expand documentation for each exercise
+
+## License
+
+No license.
