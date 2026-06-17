@@ -1,5 +1,5 @@
 import React from 'react';
-import { Draggable } from 'react-beautiful-dnd';
+import { DragDropContext, Droppable, Draggable } from '@hello-pangea/dnd';
 
 // Accept 'index' as a prop
 const JobStatus = ({ job, deleteJob, updateJobStatus, index }) => {

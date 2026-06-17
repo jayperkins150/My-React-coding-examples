@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import { DragDropContext } from 'react-beautiful-dnd'; 
+import { DragDropContext, Droppable, Draggable } from "@hello-pangea/dnd";
 
 import Header from './assets/components/Header';
 import VariableDisplay from './assets/components/VariableDisplay';
