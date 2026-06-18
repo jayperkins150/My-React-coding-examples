@@ -1,3 +1,4 @@
+<!---->
 # My React Coding Examples
 
 A collection of React examples and practice exercises created to strengthen my understanding of React fundamentals and modern frontend development concepts.
