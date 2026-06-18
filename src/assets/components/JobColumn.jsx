@@ -1,5 +1,5 @@
 import React from 'react';
-import { Droppable } from 'react-beautiful-dnd';
+import { DragDropContext, Droppable, Draggable } from '@hello-pangea/dnd';
 import JobStatus from './JobStatus';
 
 const JobColumn = ({ title, image, alt, jobs, droppableId, deleteJob, updateJobStatus }) => {
